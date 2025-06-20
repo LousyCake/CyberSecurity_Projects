@@ -82,36 +82,50 @@ A strength score is calculated based on the number of satisfied criteria. The pr
 
 The built-in generator ensures each password contains a balanced mix of character types to meet the above criteria.
 
-## Dark Mode
 
-The layout adjusts based on user preference or theme toggle. Accessibility and contrast are preserved in both light and dark modes.
+## Visual Documentation
 
-## Suggested Diagrams (Placeholders Below)
+### 🔁 Password Strength Evaluation Flowchart  
+*How the input moves through validation logic*  
+![Password Strength Evaluation Flowchart](./Assets/1.png)
 
-Add the following diagrams/screenshots and label them accordingly:
+---
 
-1. Password Strength Evaluation Flowchart
-"How the input moves through validation logic"
+### 🔐 Password Entropy Comparison Chart  
+*Visualizing the strength difference between short vs complex passwords*  
+![Password Entropy Comparison Chart](./Assets/2.png)
 
-2. Password Entropy Comparison Chart
-"Visualizing the strength difference between short vs complex passwords"
+---
 
-3. Password Generator Logic Tree
-"How we build a compliant password from scratch"
+### 🧠 Password Generator Logic Tree  
+*How we build a compliant password from scratch*  
+![Password Generator Logic Tree](./Assets/3.png)
 
-4. User Interaction Wireframe
-"Simple annotated UI layout screenshot"
+---
 
-## Screenshots
+### 🖼️ User Interaction Wireframe  
+*Simple annotated UI layout screenshot*  
+![UI Wireframe](./Assets/4.png)
 
-Add screenshots showing:
+---
 
-* Light and dark modes
+## 🖥 Screenshots
 
-* A strong password passed
+### ✅ Strong Password Example  
+*Shows a password that satisfies all criteria*  
+![Strong Password Screenshot](./Assets/7.png)
 
-* A weak password failing checks
+---
 
+### ❌ Weak Password Example  
+*Password fails multiple checks, red indicators visible*  
+![Weak Password Screenshot](./Assets/6.png)
+
+---
+
+### 🌗 Light Mode Toggle View  
+*Application running in Light mode with accessible contrast*  
+![Light Mode Screenshot](./Assets/5.png)
 ## Technologies Used
 
 * HTML5

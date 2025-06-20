@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength Checker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <h1>Password Strength Checker</h1>
+        <div class="input-wrapper">
+            <input id="password" type="password" placeholder="Enter your password..." />
+            <span id="toggle-visibility" title="Show/Hide Password">👁️</span>
+        </div>
+        <div class="strength-bar" id="strength-bar"></div>
+
+        <ul class="checklist">
+            <li id="length" class="rule">At least 8 characters</li>
+            <li id="uppercase" class="rule">Contains uppercase letter</li>
+            <li id="lowercase" class="rule">Contains lowercase letter</li>
+            <li id="number" class="rule">Contains a number</li>
+            <li id="special" class="rule">Contains special character (!@#...)</li>
+        </ul>
+        <p class="feedback" id="feedback">Strength: N/A</p>
+        <div class="buttons">
+            <button id="generate-pass">Generate Secure Password</button>
+            <button id="copy-pass">Copy to Clipboard</button>
+            <label class="theme-toggle">
+                <input type="checkbox" id="theme-switch"> Dark Mode
+            </label>
+        </div>
+    </main>
+</body>
+
+</html>

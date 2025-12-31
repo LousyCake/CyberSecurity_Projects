@@ -1,52 +1,58 @@
 # CyberSecurity Projects 🔐
 
-A growing collection of beginner-to-intermediate cybersecurity projects made to learn and showcase practical skills in:
+A curated collection of beginner-to-intermediate cybersecurity projects designed to showcase **practical security skills, system hardening, governance concepts, and defensive techniques** used in real-world environments.
 
-- Secure front-end development
-- Vulnerability assessment
-- SIEM setup
-- Basic network hardening
-- Security tools and reporting
-
-Each folder contains a standalone project with source code, diagrams, and educational breakdowns.
+These projects focus on hands-on learning, documentation, and security analysis rather than theory alone.
 
 ---
 
 ## 📁 Projects Included
 
-### 🔹 [Password Strength Checker](./Password%20Checker)
-A professional, minimalistic web app to evaluate password strength, generate secure passwords, and educate users on strong password practices.
+### 🔹 Password Strength Checker
+A professional, minimal web application used to evaluate password strength, generate secure passwords, and educate users on best password practices.
 
-Includes:
-- Real-time validation
-- Secure generator
-- Dark mode
-- Diagrams and UI wireframes
+**Includes:**
+- Real-time password validation  
+- Secure password generator  
+- Dark mode interface  
+- UI diagrams and design documentation  
 
-> 📷 Screenshots and PlantUML diagrams included in `/Assets/` inside the project.
+📂 Folder: `Password Checker`
+
+---
+
+### 🔹 Security Governance and Hardening
+A comprehensive collection of security assessment and hardening documents focused on governance, compliance, and system protection.
+
+This project demonstrates how security controls are evaluated, documented, and justified in enterprise environments.
+
+**Includes:**
+- Application security assessment  
+- Data security governance and regulatory compliance  
+- Endpoint security hardening and audit review  
+- Network security architecture and SIEM concepts  
+- Backup, encryption, and recovery considerations  
+
+📂 Folder: `Security-Governance-and-Hardening`
+
+Each document includes explanations, screenshots, and structured analysis to demonstrate real-world security practices.
 
 ---
 
 ## 🧠 Purpose
 
-These projects were built to:
-- Practice secure coding concepts
-- Learn tools like OpenVAS, ELK, DVWA
-- Build a strong cybersecurity portfolio
-- Explore practical defense and detection setups
+These projects were created to:
 
-Each project folder has its own `README.md` with a full breakdown.
+- Practice secure coding and defensive security concepts  
+- Understand governance, risk, and compliance (GRC) fundamentals  
+- Explore endpoint and network hardening techniques  
+- Learn monitoring, auditing, and logging concepts  
+- Build a strong, portfolio-ready cybersecurity foundation  
 
----
-
-## 🚧 Upcoming Projects
-
-- ✅ Password Strength Checker *(completed)*
-- 🔄 Vulnerability Management Lab *(WIP)*
-- ⏳ SIEM with Elastic Stack *(coming soon)*
+Each project folder contains its own `README.md` with detailed explanations.
 
 ---
 
 ## 📜 License
 
-MIT — use, learn, and share freely.
+MIT — free to use, learn from, and share.
